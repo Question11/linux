@@ -17,4 +17,15 @@ username group
 
 size 4096..
 
-文件=元数据（控制）【集中存放在】+
+文件=元数据（控制）【集中存放在目录文件】+ 用户数据
+
+name attribute size time （address table）元数据
+①基本目录项->{PATH->index number}    起0#~终4095 大小
+②索引节点（index-node）（1、数据控制 2、对应地址表）
+
+编译->语法/静
+运行->内存/动（strace 、gdb）
+
+0 成
+1~100->固定错误类型
+101~255用户自定义
